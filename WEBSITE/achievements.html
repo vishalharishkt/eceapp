@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-[url(./bg.jpg)] bg-cover h-screen bg-no-repeat overflow-hidden">
+
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <!--
+                  Icon when menu is closed.
+      
+                  Heroicon name: outline/menu
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <!--
+                  Icon when menu is open.
+      
+                  Heroicon name: outline/x
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex-1 flex items-center justify-center sm:items-center sm:justify-start">
+              <div class="flex-shrink-0 flex items-center">
+               <img src="gce.jpeg" width="50" height="50">
+              </div>
+              <div class="hidden sm:block sm:ml-6">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a href="index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+      
+                  <a href="staff.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Staff</a>
+      
+                  <a href="timetable.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Timetable</a>
+      
+                  <a href="achievements.html" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Achievements</a>
+                </div>
+              </div>
+              <a href="https://ece-app.vercel.app" class="ml-auto text-gray-800 bg-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Log In</a>
+            </div>
+           
+          </div>
+        </div>
+      
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="index.html" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+      
+            <a href="staff.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Staff</a>
+      
+            <a href="timetable.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Timetable</a>
+      
+            <a href="achievements.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Achievements</a>
+          </div>
+        </div>
+      </nav>    
+   
+
+      <div class="grid max-w-7xl mx-auto py-10 gap-6 p-6 md:gap-10 overflow-scroll h-full">
+
+        <div class="p-6 rounded-lg shadow-lg bg-white">
+            <p class="font-bold pt-4">K.Aasai Kumar<small class="text-gray-500">(1931001)</small></p>
+            <div>
+                <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                <ol class="list-decimal list-inside mt-2">
+                    <li>1st prize - poster design(COMNET function)</li>
+                    <li>2nd prize - circuit debugging(COMNET function)</li>
+                    <li>3rd prize - Technorods(COMNET function)</li>
+                </ol>
+            </div>
+          </div>
+         
+  
+
+      <div class="p-6 rounded-lg shadow-lg bg-white" >
+          <p class="font-bold pt-4">V.Abipriya <small class="text-gray-500">(1931002)</small></p>
+          <div>
+              <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+              <ol class="list-decimal list-inside mt-2">
+                  <li> 1st prize - PPT presentation(COMNET function)</li>
+              </ol>
+          </div>
+        </div>
+   
+ 
+<div class="p-6 rounded-lg shadow-lg bg-white">
+        <p class="font-bold pt-4">E.Abinisha <small class="text-gray-500">(1931003)</small></p>
+        <div>
+            <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+            <ol class="list-decimal list-inside mt-2">
+                <li>3rd prize - Animation(COMNET function)</li>
+                <li>2nd prize - Coderace(COMNET function)</li>
+                <li>1st prize - Group Discussion(COMNET function)</li>
+            </ol>
+        </div>
+      </div>
+
+  
+                      
+                        <div class="p-6 rounded-lg shadow-lg bg-white">
+                                <p class="font-bold pt-4"> R.Gokul<small class="text-gray-500">(1931015)</small></p>
+                                <div>
+                                    <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                    <ol class="list-decimal list-inside mt-2">
+                                        <li>3rd prize - Crack2Knack(COMNET function)</li>
+                                        <li>3rd prize - Photoshoot(COMNET function)</li>
+                                    </ol>
+                                </div>
+                              </div>
+                        
+                         
+                           
+                            <div class="p-6 rounded-lg shadow-lg bg-white">
+                                    <p class="font-bold pt-4">R.Janakiraman<small class="text-gray-500">(1931018)</small></p>
+                                    <div>
+                                        <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                        <ol class="list-decimal list-inside mt-2">
+                                            <li>2nd prize - Crack2Knack</li>
+                                        </ol>
+                                    </div>
+                                  </div>
+                           
+                              
+                                    
+                                               
+                                                  <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                                          <p class="font-bold pt-4"> M.Madhumitha<small class="text-gray-500">(1931029)</small></p>
+                                                          <div>
+                                                              <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                                              <ol class="list-decimal list-inside mt-2">
+                                                                  <li>3rd prize - PPT Presentation(COMNET function)</li>
+                                                              </ol>
+                                                          </div>
+                                                        </div>
+                                                  
+                                                    <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                                            <p class="font-bold pt-4"> S.Manikandan<small class="text-gray-500">(1931031)</small></p>
+                                                            <div>
+                                                                <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                                                <ol class="list-decimal list-inside mt-2">
+                                                                    <li>1st prize - Photography(COMNET Function)</li>
+                                                                </ol>
+                                                            </div>
+                                                          </div>
+                                                  
+                                                      
+                                                     
+                                                        <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                                                <p class="font-bold pt-4">B.R.Mohanrajhan<small class="text-gray-500">(1931033)</small></p>
+                                                                <div>
+                                                                    <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                                                    <ol class="list-decimal list-inside mt-2">
+                                                                        <li>2nd prize - Chess(COMNET Function)</li>
+                                                                        <li>1st prize - Quiz(COMNET Function)</li>
+                                                                        <li>1st prize - Crack2Knack(COMNET Function)</li>
+                                                                    </ol>
+                                                                </div>
+                                                              </div>
+                                                         
+                                                         
+                         
+                          <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                  <p class="font-bold pt-4"> M.R.Priyadharshini<small class="text-gray-500">(1931038)</small></p>
+                                  <div>
+                                      <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                      <ol class="list-decimal list-inside mt-2">
+                                          <li>3rd prize - Group Discussion(COMNET Function)</li>
+                                          <li>1st prize - PPT Presentation(COMNET Function)</li>
+                                          <li>1st prize - Technorods(COMNET Function)</li>
+                                      </ol>
+                                  </div>
+                                </div>
+                          
+                          <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                  <p class="font-bold pt-4"> S.P.Priyadharshini<small class="text-gray-500">(1931039)</small></p>
+                                  <div>
+                                      <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                      <ol class="list-decimal list-inside mt-2">
+                                          <li>2nd prize - Animation(COMNET Function)</li>
+                                          <li>1st prize - Coderace(COMNET Function)</li>
+                                          <li>1st prize - PPT Presentation(COMNET Function)</li>
+                                      </ol>
+                                  </div>
+                                </div>
+                           
+                          
+                                
+                          
+                          <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                  <p class="font-bold pt-4"> P.S.Sasiprakash<small class="text-gray-500">(1931045)</small></p>
+                                  <div>
+                                      <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                      <ol class="list-decimal list-inside mt-2">
+                                          <li>3rd prizeProject expo(COMNET function)</li>
+                                      </ol>
+                                  </div>
+                                </div>
+                           
+                         \
+                          
+                          <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                  <p class="font-bold pt-4">S.Sudharsan <small class="text-gray-500">(1931047)</small></p>
+                                  <div>
+                                      <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                      <ol class="list-decimal list-inside mt-2">
+                                          <li>1st prize - code race(COMNET function)</li>
+                                      </ol>
+                                  </div>
+                                </div>
+                         
+                                
+                           
+                          <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                  <p class="font-bold pt-4"> R.S.Suriya<small class="text-gray-500">(1931049)</small></p>
+                                  <div>
+                                      <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                      <ol class="list-decimal list-inside mt-2">
+                                          <li>B,C Certificate holder in NCC</li>
+                                      </ol>
+                                  </div>
+                                </div>
+                           
+                          <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                  <p class="font-bold pt-4">K.G.Surya <small class="text-gray-500">(1931050)</small></p>
+                                  <div>
+                                      <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                      <ol class="list-decimal list-inside mt-2">
+                                          <li>NCC Cadet</li>
+                                      </ol>
+                                  </div>
+                                </div>
+                          
+                         
+                          
+                          
+                           
+                          <div class="p-6 rounded-lg shadow-lg  bg-white">
+                                  <p class="font-bold pt-4"> K.T.Vishalharish<small class="text-gray-500">(1931054)</small></p>
+                                  <div>
+                                      <p class="uppercase text-sm tracking-wider mt-2">Achievements</p>
+                                      <ol class="list-decimal list-inside mt-2">
+                                          <li>3rd prizeProject expo(COMNET function)</li>
+                                      </ol>
+                                  </div>
+                                </div>
+                          
+                          
+                         
+      
+ 
